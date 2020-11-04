@@ -1,0 +1,16 @@
+{
+    "name": "my-javascript-101",
+    "version": "1.0.0",
+    "devDependencies": {
+        "mocha": "^7.1.1",
+        "selenium-webdriver": "^4.0.0-alpha.7"
+    },
+    "scripts": {
+        "test": "mocha test/unit/*.js",
+        "e2e": "mocha test/e2e/*.js --timeout 15000"
+    },
+    "dependencies": {
+        "chromedriver": "^86.0.0",
+        "git": "^0.1.5"
+    }
+}
